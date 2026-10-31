@@ -1,5 +1,14 @@
 
 {{!-- TODO create ingredient submit form --}}
+<p> Enter the ingredients you have and any dietary needs and we'll create a custom recipe 
+    with what you have on hand. 
+</p>
+
+<form id="ingredient-form" method="POST" action="/generate_recipe">
+    <label class ="form-label" for="ingredients">Ingredients</label>
+    <textarea class="form-control" id="ingredients" name="ingredients"></textarea>
+    <input id="submit-button" class="btn btn-primary" type="submit">
+</form>
 
 <script>
 

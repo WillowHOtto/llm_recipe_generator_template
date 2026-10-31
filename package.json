@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Clara and <your name here>",
+  "author": "Clara and Willow",
   "license": "ISC",
-  "description": "",
+  "description": "Gemini LLM powered recipe generator",
   "dependencies": {
     "@google/genai": "^1.26.0",
     "express": "^5.1.0",
